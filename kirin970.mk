@@ -54,6 +54,11 @@ PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     nfc_nci.pn54x.default
 
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.base@1.0 \
+    android.hidl.manager@1.0
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml \
