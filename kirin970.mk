@@ -19,7 +19,7 @@ $(call inherit-product-if-exists, vendor/huawei/kirin970-common/kirin970-common-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-aosip
 
 # Audio
 PRODUCT_COPY_FILES += \
