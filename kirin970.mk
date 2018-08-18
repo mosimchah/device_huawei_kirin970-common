@@ -109,6 +109,10 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHI6403 \
     HotwordEnrollmentXGoogleHI6403
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service.kirin970
+
 # VNDK
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vndk-compat/ld.config.26.txt:system/etc/ld.config.26.txt \
