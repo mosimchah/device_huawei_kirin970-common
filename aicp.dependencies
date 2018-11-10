@@ -1,0 +1,12 @@
+[
+ {
+   "repository":  "LineageOS/android_packages_resources_devicesettings",
+   "target_path": "packages/resources/devicesettings",
+   "branch":      "lineage-16.0"
+ },
+ {
+   "repository":  "berkeley-dev/proprietary_vendor_huawei_kirin970-common",
+   "target_path": "vendor/huawei/kirin970-common",
+   "branch":      "lineage-16.0"
+ }
+]

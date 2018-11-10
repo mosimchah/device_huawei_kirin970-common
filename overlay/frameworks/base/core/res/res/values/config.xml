@@ -250,9 +250,29 @@
                 9 - Back Button
                 10 - AppSwitch
                 11 - Wake device -->
-    <integer name="config_fpSingleTapDefault">8</integer>
+    <!--integer name="config_fpSingleTapDefault">8</integer>
     <integer name="config_fpSwipeLeftDefault">9</integer>
     <integer name="config_fpSwipeRightDefault">10</integer>
-    <integer name="config_fpLongpressDefault">7</integer>
+    <integer name="config_fpLongpressDefault">7</integer -->
+
+    <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
+         autodetected from the Configuration. -->
+    <bool name="config_showNavigationBar">true</bool>
+
+
+    <!-- Control the behavior when the user triple presses the power button.
+            0 - Nothing
+            1 - Toggle theater mode setting
+            2 - Brightness boost
+    -->
+    <integer name="config_triplePressOnPowerBehavior">2</integer>
+
+     <!-- Override the default detection behavior for the framework method
+         android.view.ViewConfiguration#hasPermanentMenuKey().
+         Valid settings are:
+         0 - No change. Use the default autodetection behavior.
+         1 - The device DOES have a permanent menu key; ignore autodetection.
+         2 - The device DOES NOT have a permanent menu key; ignore autodetection. -->
+    <integer name="config_overrideHasPermanentMenuKey">2</integer>
 
 </resources>
