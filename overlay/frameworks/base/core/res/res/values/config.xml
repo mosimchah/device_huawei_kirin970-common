@@ -253,12 +253,6 @@
 
     <!-- Flag indicating whether we should enable smart battery. -->
     <bool name="config_smart_battery_available">true</bool>
-    
-    <!-- Enable doze alwaysOn Display -->
-    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
-
-    <!-- Whether the display blanks itself when transition from a doze to a non-doze state -->
-    <bool name="config_displayBlanksAfterDoze">true</bool>
 
     <!-- Whether device has super charging support -->
     <bool name="config_hasSuperCharger">true</bool>
