@@ -248,6 +248,9 @@
     <!-- Whether the display blanks itself when transition from a doze to a non-doze state -->
     <bool name="config_displayBlanksAfterDoze">true</bool>
 
+    <!-- Set AOD off by default -->
+    <bool name="config_dozeAlwaysOnEnabled">false</bool>
+
     <!-- Whether device has super charging support -->
     <bool name="config_hasSuperCharger">true</bool>
 
